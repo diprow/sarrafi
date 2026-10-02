@@ -1,6 +1,0 @@
--- Already applied to the "diaprod-site" Supabase project. Kept here for reference only.
--- Tables: public.ledger_owners, public.ledger_docs (encrypted rows), functions: claim_ledger(), is_ledger_owner().
--- Anonymous visitors have no access. Signed-in users only see their own rows, and only if they own the ledger.
--- The first site admin (an email listed in public.admins) who signs in claims the ledger; after that it is closed.
--- To give the ledger to a different account later, run (in the Supabase SQL editor):
---   delete from public.ledger_owners;   -- then sign in with the new admin account
